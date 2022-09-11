@@ -8,10 +8,10 @@ def tons_of_TNT(energy):
 
 def richter_chart():
     print("Richter\t\t\tJoules\t\t\tTNT")
-print(f"{'1':<20}{energy(1):<25}{tons_of_TNT(energy(1)):<25}")
-print(f"{'9.1':<20}{energy(9.1):<25}{tons_of_TNT(energy(9.1)):<25}")
-print(f"{'9.2':<20}{energy(9.2):<25}{tons_of_TNT(energy(9.2)):<25}")
-print(f"{'9.5':<20}{energy(9.5):<25}{tons_of_TNT(energy(9.5)):<25}")
+    print(f"{'1':<20}{energy(1):<25}{tons_of_TNT(energy(1)):<25}")
+    print(f"{'9.1':<20}{energy(9.1):<25}{tons_of_TNT(energy(9.1)):<25}")
+    print(f"{'9.2':<20}{energy(9.2):<25}{tons_of_TNT(energy(9.2)):<25}")
+    print(f"{'9.5':<20}{energy(9.5):<25}{tons_of_TNT(energy(9.5)):<25}")
 
 def richter_scale():    
     richter = float(input("\nenter a richter scale value: "))
