@@ -40,4 +40,5 @@ def main():
     print(f"Furlongs: {furlongs}")
     print(f"Minutes to walk: {walking_speed*60}")
 
-main()
+if __name__ == '__main__':
+    main()
